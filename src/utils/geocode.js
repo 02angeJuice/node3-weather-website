@@ -1,7 +1,7 @@
 const request = require('postman-request');
 const config = require('../../config');
 
-const TOKEN = config.TOKEN;
+const TOKEN = process.env.TOKEN;
 
 const geocode = (address, callback) => {
   const uri = `https://api.mapbox.com/geocoding/v5/mapbox.places/${address}.json?access_token=${TOKEN}`;
