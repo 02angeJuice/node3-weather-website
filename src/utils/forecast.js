@@ -1,5 +1,6 @@
 const request = require('postman-request');
-const config = require('../../config');
+require('dotenv').config();
+
 const KEY = process.env.KEY;
 
 const forecast = (latitude, longitude, callback) => {

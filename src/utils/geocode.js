@@ -1,5 +1,5 @@
 const request = require('postman-request');
-const config = require('../../config');
+require('dotenv').config();
 
 const TOKEN = process.env.TOKEN;
 
