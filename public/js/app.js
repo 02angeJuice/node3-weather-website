@@ -3,7 +3,6 @@ const search = document.querySelector('input');
 
 weatherForm.addEventListener('submit', (e) => {
   const location = document.querySelector('input').value;
-  const result = document.querySelector('.result');
   const UILocation = document.querySelector('#ui-location');
   const UIForecast = document.querySelector('#ui-forecast');
 
