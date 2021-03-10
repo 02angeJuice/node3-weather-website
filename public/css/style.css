@@ -41,6 +41,15 @@ header a:hover {
   text-decoration: underline;
 }
 
+.link {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
 .portrait {
   width: 250px;
 }
